@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+.env
+.env.* 
+.venv/
+venv/
+pip-wheel-metadata/
+*.log
+
+# Flask / builds
+*.db
+*.sqlite
+migrations/**/__pycache__/
+
+# Node/FE
+node_modules/
+dist/
+.build/
+.next/
+.out/
+coverage/
+*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
